@@ -1,4 +1,4 @@
-.section-heading{
+.Title{
 	color: #744253;
 	font-size: 16px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -19,4 +19,8 @@
 li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: upper-roman;
+}
+
+p{
+	font-style: italic;
 }
