@@ -1,16 +1,21 @@
-.Title{
+#page-title{
 	color: #744253;
-	font-size: 16px;
+	font-size: 45px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .About{
 	color: #C78283;
-	font-size: 12px;
+	font-size: 25px;
 	text-decoration: underline;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.paragraph{
+	color: #7D6167;
+	font-size: 12px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: italic;
+}
 .logo{
 	width: 25%; 
 	height: 25%;
@@ -19,8 +24,12 @@
 li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: upper-roman;
+	color: #7D6167;
 }
 
-p{
+p{ 
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #7D6167;
 	font-style: italic;
+	font-size: 12px;
 }
