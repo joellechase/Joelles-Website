@@ -1,0 +1,22 @@
+.section-heading{
+	color: #744253;
+	font-size: 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.About{
+	color: #C78283;
+	font-size: 12px;
+	text-decoration: underline;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo{
+	width: 25%; 
+	height: 25%;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: upper-roman;
+}
