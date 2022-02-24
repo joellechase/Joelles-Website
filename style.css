@@ -25,7 +25,7 @@ nav{
   
   nav ul{
 	list-style-type: none;
-	display: inline;
+	display: inline-flex;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 18px;
 	display: flex;
@@ -67,10 +67,11 @@ nav{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .paragraph{
-	color: #7D6167;
-	font-size: 12px;
+	color: #462d32;
+	font-size: 25px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-style: italic;
+	font-style: bold;
 }
 
 li {
