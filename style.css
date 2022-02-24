@@ -1,3 +1,16 @@
+.menu {
+	text-align: center;
+	margin-top: 10px;
+ }
+ 
+ .menu a {
+	display: inline;
+ }
+ 
+ .menu li {
+	float: none;
+	display: inline;
+ }
 nav{
 	background-color: #dfa5fa;
 	padding: 5px;
