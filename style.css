@@ -18,7 +18,12 @@
 	margin: 0 auto;
 	height: 100vh;
   }
-
+  .showcase {
+	position: fixed;
+	opacity: .5;
+	align-items: center;
+    justify-content: center;
+  }
 nav{
 	background-color: #dfa5fa;
 	padding: 5px;
