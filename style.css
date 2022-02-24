@@ -11,11 +11,12 @@
 	float: none;
 	display: inline;
  }
-.paragraph {
-background-image: url('https://freepngimg.com/download/education/64495-educational-reading-e-learning-education-technology-icon.png');
-background-repeat: no-repeat;
- opacity: .5;
+ <style>
+body {
+  background-image: url('example_img_girl.jpg');
+  background-repeat: no-repeat;
 }
+</style>
  body {
 	display: fixed;
 	align-items: center;
