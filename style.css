@@ -21,6 +21,8 @@
   .showcase {
 	position: fixed;
 	opacity: .5;
+	align-items: center;
+    justify-content: center;
   }
 
 nav{
