@@ -42,6 +42,12 @@ nav{
 	  display: block;
 	  float:right;
 	}
+	@media (prefers-color-scheme: dark){
+		html{
+			background-color: black;
+			color: white;
+		}
+	}
 	nav li{
 	  margin: auto;
 	  padding: 10px;
