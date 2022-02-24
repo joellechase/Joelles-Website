@@ -11,20 +11,12 @@
 	float: none;
 	display: inline;
  }
- body {
-	display: fixed;
-	align-items: center;
-	justify-content: center;
-	margin: 0 auto;
-	height: 100vh;
-  }
-  <style>
+ 
   body {
-	background-image: url('example_img_girl.jpg');
+	background-image: url('https://freepngimg.com/download/education/64495-educational-reading-e-learning-education-technology-icon.png');
 	background-repeat: no-repeat;
 	opacity: .5;
   }
-  </style>
 nav{
 	background-color: #dfa5fa;
 	padding: 5px;
