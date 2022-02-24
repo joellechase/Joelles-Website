@@ -1,98 +1,28 @@
-.menu {
-	text-align: center;
-	margin-top: 10px;
- }
- 
- .menu a {
-	display: inline;
- }
- 
- .menu li {
-	float: none;
-	display: inline;
- }
- body {
-	display: fixed;
-	align-items: center;
-	justify-content: center;
-	margin: 0 auto;
-	height: 100vh;
- }
-nav{
-	background-color: #dfa5fa;
-	padding: 5px;
+.center{
+	margin: auto;
+	display: block;
+}
+.purple{
+	background-color: rgb(200, 131, 228); 
+	color: white;
+}
+.mt-0 {
+	margin-top: 0 !important;
   }
   
-  nav ul{
-	list-style-type: none;
-	display: inline-flex;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 18px;
-	display: flex;
-	justify-content: space-between;
-	padding: 0 10px;
+  .ml-1 {
+	margin-left: (spacer * .25) !important;
   }
   
-  nav a{
-	color: rgb(255, 255, 255);
+  .px-2 {
+	padding-left: (spacer * .5) !important;
+	padding-right: (spacer * .5) !important;
   }
   
-  @media (max-width: 768px){
-	nav ul{
-	  display: block;
-	  float:right;
-	}
-	@media (prefers-color-scheme: dark){
-		html{
-			background-color: black;
-			color: white;
-		}
-	}
-	nav li{
-	  margin: auto;
-	  padding: 10px;
-	  text-align: center;
-	}
-	@media (prefers-color-scheme: dark){
-		html{
-			background-color: black;
-			color: white;
-			float:right;
-		}
-	}
+  .p-3 {
+	padding: spacer !important;
   }
-  
-#page-title{
-	color: #744253;
-	font-size: 45px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.About{
-	color: #C78283;
-	font-size: 30px;
-	text-decoration: underline;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.paragraph{
-	color: #462d32;
-	font-size: 25px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-style: italic;
-	font-style: bold;
-}
-
-li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: large;
-    list-style-type: upper-roman;
-	color: #7D6167;
-}
-
-p{ 
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: #7D6167;
-	font-style: italic;
-	font-size: 12px;
-}
-
+.mxauto {
+font-size: 100pt;
+font-weight: 200;
+  }
