@@ -40,6 +40,7 @@ nav{
   @media (max-width: 768px){
 	nav ul{
 	  display: block;
+	  float:right;
 	}
 	nav li{
 	  margin: auto;
@@ -50,6 +51,7 @@ nav{
 		html{
 			background-color: black;
 			color: white;
+			float:right;
 		}
 	}
   }
@@ -62,7 +64,7 @@ nav{
 
 .About{
 	color: #C78283;
-	font-size: 25px;
+	font-size: 30px;
 	text-decoration: underline;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -76,6 +78,7 @@ nav{
 
 li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: large;
     list-style-type: upper-roman;
 	color: #7D6167;
 }
