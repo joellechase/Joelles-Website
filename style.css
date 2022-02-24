@@ -18,12 +18,13 @@
 	margin: 0 auto;
 	height: 100vh;
   }
-  .showcase {
-	position: fixed;
+  <style>
+  body {
+	background-image: url('example_img_girl.jpg');
+	background-repeat: no-repeat;
 	opacity: .5;
-	align-items: center;
-    justify-content: center;
   }
+  </style>
 nav{
 	background-color: #dfa5fa;
 	padding: 5px;
