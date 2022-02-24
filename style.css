@@ -2,6 +2,7 @@
 	margin: auto;
 	display: block;
 }
+<<<<<<< Updated upstream
 .purple{
 	background-color: rgb(200, 131, 228); 
 	color: white;
@@ -26,3 +27,9 @@
 font-size: 100pt;
 font-weight: 200;
   }
+=======
+
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">Default</a>
+</nav>
+>>>>>>> Stashed changes
