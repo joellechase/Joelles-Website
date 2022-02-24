@@ -26,7 +26,12 @@ nav{
 	  padding: 10px;
 	  text-align: center;
 	}
-	
+	@media (prefers-color-scheme: dark){
+		html{
+			background-color: black;
+			color: white;
+		}
+	}
   }
   
 #page-title{
