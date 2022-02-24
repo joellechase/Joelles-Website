@@ -11,6 +11,9 @@
 	float: none;
 	display: inline;
  }
+ img {
+	opacity: 0.5;
+  }
 nav{
 	background-color: #dfa5fa;
 	padding: 5px;
