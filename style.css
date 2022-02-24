@@ -11,18 +11,15 @@
 	float: none;
 	display: inline;
  }
- <style>
-body {
-  background-image: url('example_img_girl.jpg');
-  background-repeat: no-repeat;
-}
-</style>
  body {
 	display: fixed;
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
 	height: 100vh;
+ }
+ .style { 
+	 opacity: .5;
  }
 nav{
 	background-color: #dfa5fa;
