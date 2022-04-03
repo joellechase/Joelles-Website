@@ -21,7 +21,6 @@
     </div>
       
       <link href="style.css" rel="stylesheet">
-      <script src="jQuery"></script>
     </head>
     <body>
         <br>
@@ -39,5 +38,43 @@
         }
         </style>
     <br>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script language="JavaScript">
+      var ncsu = {};
+  ncsu['yes'] = 0;
+  ncsu['no'] = 0;
+$(document).ready(function(){
+  
+  drawChart();
+  
+  $("#submit").click(function(){
+      if($("#ncsutype").val()=="yes"){
+        ncsu['yes']++;
+      }
+      if($("#ncsutype").val()=="no"){
+          ncsu['vno']++;
+       }
+    drawChart();
+  });
+  
+  function drawChart(){
+    var ctx = $('#myChart');
+    var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['No', 'Yes'],
+            datasets: [{
+                label: '# of Votes',
+                data: [ncsu['NO'], ncsu['Yes']],
+              backgroundColor:[
+                'black',
+                'red'
+              ]
+            }]
+            }
+        });
+  }
+  });
+    </script>
   </body>
   </html>
