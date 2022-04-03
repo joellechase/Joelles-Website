@@ -1,35 +1,17 @@
+.purple {
+	background-color: rgb(200, 131, 228); 
+	color: rgb(255, 255, 255);
+}
 .center{
 	margin: auto;
 	display: block;
 }
-<<<<<<< Updated upstream
-.purple{
-	background-color: rgb(200, 131, 228); 
-	color: white;
+@media (prefers-color-scheme: dark){
+	html{
+		background-color: black;
+		color: white;
+	}
 }
-.mt-0 {
-	margin-top: 0 !important;
-  }
-  
-  .ml-1 {
-	margin-left: (spacer * .25) !important;
-  }
-  
-  .px-2 {
-	padding-left: (spacer * .5) !important;
-	padding-right: (spacer * .5) !important;
-  }
-  
-  .p-3 {
-	padding: spacer !important;
-  }
-.mxauto {
-font-size: 100pt;
-font-weight: 200;
-  }
-=======
-
-<nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">Default</a>
-</nav>
->>>>>>> Stashed changes
+.hidden{
+	display: none;
+}
