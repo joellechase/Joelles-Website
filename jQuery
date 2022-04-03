@@ -1,37 +1,5 @@
 $(document).ready(function(){   
-var ncsu = {};
-  ncsu['yes'] = 0;
-  ncsu['no'] = 0;
-$(document).ready(function(){
-  
-  drawChart();
-  
-  $("#submit").click(function(){
-      if($("#ncsutype").val()=="yes"){
-        ncsu['yes']++;
-      }
-      if($("#ncsutype").val()=="no"){
-          ncsu['vno']++;
-       }
-    drawChart();
-  });
-  
-  function drawChart(){
-    var ctx = $('#myChart');
-    var myChart = new Chart(ctx, {
-        type: 'pie',
-        data: {
-            labels: ['No', 'Yes'],
-            datasets: [{
-                label: '# of Votes',
-                data: [ncsu['NO'], ncsu['Yes']],
-              backgroundColor:[
-                'black',
-                'red'
-              ]
-            }]
-            }
-        });
-  }
-  });
+$("#readmore").click(function(){
+$(".hidden").fadeIn();
+});
 });
