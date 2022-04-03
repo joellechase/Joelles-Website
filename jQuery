@@ -1,7 +1,3 @@
-<script language="JavaScript">
-	console.log("Hello world!");
-</script>
-
 var ncsu = {};
   ncsu['yes'] = 0;
   ncsu['no'] = 0;
