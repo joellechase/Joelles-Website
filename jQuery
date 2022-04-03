@@ -1,3 +1,5 @@
+$(document).ready(function(){   
+});
 var ncsu = {};
   ncsu['yes'] = 0;
   ncsu['no'] = 0;
