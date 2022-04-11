@@ -15,3 +15,7 @@
 .hidden{
 	display: none
 }
+img{
+	width: 25%;
+	height: auto;
+}
