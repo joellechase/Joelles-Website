@@ -7,3 +7,16 @@ $("#readless").click(function(){
     $("#readmore").fadeIn();
 });
 });
+
+$(document).ready(function(){
+    $("form").submit(function(){
+    
+      if($("#name").val().length===0){
+        alert ("Name is required");
+        return false;
+      }
+      
+      return true;
+      
+    })
+  });
