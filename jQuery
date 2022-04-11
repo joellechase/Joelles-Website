@@ -27,4 +27,4 @@ $(document).ready(function(){
               $("img").attr("scr", response.message);
           })
       })
-  }
+    })
