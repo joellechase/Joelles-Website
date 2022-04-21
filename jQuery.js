@@ -24,7 +24,7 @@ $(document).ready(function(){
       $("button").click(function(){
           var cat=$.get("https://api.thecatapi.com/v1/images/search");
           cat.done(function(response){
-              $("img").attr("scr", response.message);
+              $("img").attr("src", response[0].url);
           })
       })
     })
