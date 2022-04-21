@@ -1,6 +1,6 @@
 .purple {
-	background-color: rgba(255, 255, 255, 0); 
-	color: rgb(246, 198, 255);
+	background-color: rgb(255, 255, 255,); 
+	color: rgb(255, 255, 255);
 }
 .center{
 	margin: auto;
@@ -8,7 +8,7 @@
 }
 @media (prefers-color-scheme: dark){
 	html{
-		background-color: black;
+		background-color: rgb(255, 255, 255);
 		color: white;
 	}
 }
