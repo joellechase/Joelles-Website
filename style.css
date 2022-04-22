@@ -19,3 +19,34 @@ img{
 	width: 25%;
 	height: auto;
 }
+
+nav{
+	background-color: #000000;
+	padding: 5px;
+  }
+  
+  nav ul{
+	list-style-type: none;
+	display: inline;
+	font-family: arial;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+  }
+  
+  nav a{
+	color: rgb(242, 255, 0);
+  }
+  
+  @media (max-width: 768px){
+	nav ul{
+	  display: block;
+	}
+	nav li{
+	  margin: auto;
+	  padding: 10px;
+	  text-align: center;
+	}
+	
+  }
