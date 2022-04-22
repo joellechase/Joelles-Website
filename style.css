@@ -1,22 +1,36 @@
+.purple {
+	background-color: rgb(255, 255, 255,); 
+	color: rgb(255, 255, 255);
+}
 
 .center{
 	margin: auto;
 	display: block;
 }
+
 @media (prefers-color-scheme: dark){
 	html{
 		background-color: black;
 		color: white;
 	}
 }
+
 .hidden{
 	display: none
 }
+
 img{
 	width: 25%;
 	height: auto;
 }
-
+body {
+	color: rgb(242, 255, 0);
+  }
+  
+  h1 {
+	color: rgb(242, 255, 0);
+  }
+  
 nav{
 	background-color: #000000;
 	padding: 5px;
