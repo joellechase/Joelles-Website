@@ -39,7 +39,9 @@ nav{
 	padding: 0 10px;
   }
   
-
+  nav a{
+	color: rgb(200, 98, 244);
+  }
   
   @media (max-width: 768px){
 	nav ul{
