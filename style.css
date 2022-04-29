@@ -19,12 +19,12 @@ img{
 	height: auto;
 }
 body {
-	color: rgb(140, 255, 247);
+	color: rgb(236, 130, 0);
 	background-color: #000000;
   }
   
 nav{
-	color: rgb(212, 79, 246);
+	color: rgb(255, 255, 255);
 	background-color:#000000;
 	padding: 5px;
   }
@@ -39,9 +39,7 @@ nav{
 	padding: 0 10px;
   }
   
-  nav a{
-	color: rgb(242, 255, 0);
-  }
+
   
   @media (max-width: 768px){
 	nav ul{
